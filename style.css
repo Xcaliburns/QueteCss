@@ -1,0 +1,55 @@
+header {
+    display: block;
+    height: 25em;
+    background-color: grey;
+}
+
+nav {
+    margin: auto;
+    padding: auto;
+    display: block;
+    width: 99%;
+    height: 20%;
+    border: 5px solid rgb(9, 9, 10);
+}
+
+li {
+    width: 100%;
+    padding: auto;
+    float: left;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+#eltLI1 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    background-color: rgb(105, 97, 97);
+    width: 30%;
+}
+
+#eltLi2 {
+    background-color: gainsboro;
+    text-align: center;
+    width: 10%;
+    vertical-align: middle;
+    font-size: large;
+}
+
+#eltLi3 {
+    background-color: rgb(105, 97, 97);
+}
+
+h2 {
+    text-align: center;
+}
+
+span {
+    font-size: 1rem;
+    font-weight: lighter;
+}
