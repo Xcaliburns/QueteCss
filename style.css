@@ -1,40 +1,40 @@
+html {
+    background-color: rgb(53, 46, 46);
+    ;
+}
 
-
-
-
-body{
-    display: block;
-     margin-left: auto;
+body {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
     margin-right: auto;
-    max-width: 750px;
-    }
+    max-width: fit-content;
+    background-color: whitesmoke;
+    height: 90vh;
+}
 
 header {
     display: block;
-    height: 25%;
+    height: 20%;
     width: 100%;
-    background-color: grey;
-
 }
 
 nav {
     margin: 0;
     padding: 0;
+    margin-top: 2%;
     display: block;
-   margin-right: auto;
+    margin-right: auto;
     margin-left: auto;
-    width: 100%;
-    height:fit-content;
-    border: 5px solid rgb(9, 9, 10);
+    width: 99%;
+    height: 4vh;
     justify-content: center;
-    
-    
+    border: 1px solid rgb(53, 46, 46);
 }
 
 li {
     width: 100%;
     padding: 0;
-   
 }
 
 ul {
@@ -43,28 +43,35 @@ ul {
     list-style: none;
     margin: 0%;
     padding: 0%;
+    border: 1px solid rgb(53, 46, 46);
 }
 
 #eltLI1 {
+    display: block;
     text-align: center;
-    font-size: 2em;
-    font-weight: bold;
-    background-color: rgb(105, 97, 97);
-    width: 40%;
+    font-size: 1.6em;
+    color: rgb(224, 213, 201);
+    width: 33%;
+    padding-top: 1%;
+    background-color: rgb(53, 46, 46);
 }
 
 #eltLi2 {
-    background-color: gainsboro;
+    display: block;
     text-align: center;
-    width: 30%;
-    vertical-align: middle;
+    width: 20%;
     font-size: large;
+    background-color: gainsboro;
 }
 
 #eltLi3 {
-    background-color: rgb(105, 97, 97);
-    width: 30%;
-    text-align: center;
+    background-color: rgb(53, 46, 46);
+    display: block;
+    width: 50%;
+    text-align: left;
+    font-size: large;
+    color: rgb(224, 213, 201);
+    padding-left: 3%;
 }
 
 h2 {
@@ -74,35 +81,81 @@ h2 {
 span {
     font-size: 1rem;
     font-weight: lighter;
+    margin-right: 2%;
 }
-.images{
-display: flex;
-flex-direction: row;
-text-align: left;
-  margin-top: 2vh;
-   margin-left: auto;
-   margin-right: auto;
-   justify-content: center;
-   
-  
-  
-}
-article{
+
+.carousel {
     display: block;
-  margin: 25px;
-  font-size: 40px;
-  color: white;
-  text-align: center;
-  width: 45vh;
-  height: 50vh;
-  background-color: aliceblue;
-  border: 2px solid rgb(25, 25, 112);
-  
+    width: 99%;
+    margin: auto;
+    margin-top: 0;
+    height: 18vh;
+    background-color: gainsboro;
 }
 
+.images {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    justify-content: space-between;
+}
 
+<<<<<<< HEAD
 form label,form input,form textarea { 
     display:inline-block;
      width:70%;
         
      }
+=======
+article {
+    display: block;
+    margin: 1%;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    width: 40%;
+    height: 25vh;
+    background-color: gainsboro;
+}
+
+#ligne {
+    background-color: rgb(9, 10, 10);
+    height: 1vh;
+    margin-top: 15%;
+    margin-right: 5%;
+    margin-left: 5%
+}
+
+#contact {
+    float: left;
+    margin-right: 75%;
+}
+
+form label,
+form input,
+form textarea {
+    display: inline-block;
+    width: 100%;
+    margin-top: 2%;
+}
+
+form {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+input {
+    height: 2vh;
+}
+
+textarea {
+    height: 28%;
+}
+
+label {
+    margin: auto;
+}
+>>>>>>> d02a1a0eb27488099ebc8d6727c868d51cba1634
