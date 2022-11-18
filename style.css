@@ -109,6 +109,13 @@ span {
     justify-content: space-between;
 }
 
+<<<<<<< HEAD
+form label,form input,form textarea { 
+    display:inline-block;
+     width:70%;
+        
+     }
+=======
 article {
     display: block;
     margin: 1%;
@@ -157,3 +164,4 @@ textarea {
 label {
     margin: auto;
 }
+>>>>>>> d02a1a0eb27488099ebc8d6727c868d51cba1634
